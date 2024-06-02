@@ -1,0 +1,51 @@
+#interests {
+    padding: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.interests-cards-container {
+    display: flex;
+    justify-content: center;
+    padding: 0vw;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.interests-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 9vw;
+    width: 9vw;
+    padding: 1vw;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.interests-card:hover {
+    transform: scale(1.03);
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0.6, 0.6);
+}
+
+.interests-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.interests-card h3 {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.interest-icon {
+    font-size: 4vw;
+    display: block;
+    margin-bottom: 1vh;
+}

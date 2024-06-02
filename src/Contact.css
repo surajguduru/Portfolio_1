@@ -1,0 +1,115 @@
+#contact {
+    padding: 1vw;
+    text-align: center;
+    margin-left: 3vw;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-card {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin-left: 6vw;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(1, 1, 1, 0.3);
+}
+
+.social-media-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding: 1vw;
+}
+
+.social-media-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 120px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.social-media-card:hover {
+    transform: scale(1.05);
+}
+
+.social-media-logo .zmdi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+
+.social-media-logo .zmdi:hover {
+    transform: scale(1.05);
+}
+
+.social-media-card:hover .social-media-logo {
+    transform: scale(1.05);
+}
+
+.social-media-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.back-facebook {
+    background-color: #183c77;
+}
+
+.back-twitter {
+    background-color: #1da1f2;
+}
+
+.back-instagram {
+    background-color: #e1306c;
+}
+
+.back-youtube {
+    background-color: #ff0000;
+}
+
+.back-linkedin {
+    background-color: #0077b5;
+}
+
+.back-reddit {
+    background-color: #ff4500;
+}
+
+.nav-active {
+    color: black;
+}
+
+.header .zmdi:hover {
+    cursor: pointer;
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+.header nav ul li a:hover {
+    color: lightgreen;
+
+}
+
+.font-orangered {
+    color: orangered;
+}

@@ -1,0 +1,61 @@
+#resume {
+    background-color: rgb(34, 128, 34);
+}
+
+#contact-btn {
+    background-color: blue;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#about {
+    padding: 50px;
+    margin-top: 20vh;
+    margin-left: 10.3vw;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 6vw;
+    max-width: 60vw;
+    height: 45vh;
+    border-radius: 8px;
+    border-top: 5vh;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    margin-right: 20px;
+}
+
+.card-content {
+    text-align: left;
+    margin-left: 6vw;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #555;
+}
