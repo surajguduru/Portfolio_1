@@ -61,11 +61,11 @@ function NavBar() {
                 <img src="https://avatars.githubusercontent.com/u/140954256?s=400&v=4" alt="Profile-Photo" />
                 <h3>Suraj Guduru</h3>
                 <div class="side-menu-links">
-                    <a href="#" className="nav-social-media-logo"><i className="zmdi zmdi-linkedin font-white"></i></a>
+                    <a href="https://www.linkedin.com/in/surajguduru/" className="nav-social-media-logo"><i className="zmdi zmdi-linkedin font-white"></i></a>
                     <a href="https://github.com/surajguduru" className="nav-social-media-logo"><i className="zmdi zmdi-github font-white"></i></a>
-                    <a href="#" className="nav-social-media-logo"><i className="zmdi zmdi-facebook font-white"></i></a>
-                    <a href="#" className="nav-social-media-logo"><i className="zmdi zmdi-twitter font-white"></i></a>
-                    <a href="#" className="nav-social-media-logo"><i className="zmdi zmdi-instagram font-white"></i></a>
+                    <a href="https://www.youtube.com/@SurajGuduru10012" className="nav-social-media-logo"><i className="zmdi zmdi-youtube-play font-white"></i></a>
+                    <a href="https://twitter.com/GuduruSura38198" className="nav-social-media-logo"><i className="zmdi zmdi-twitter font-white"></i></a>
+                    <a href="https://www.instagram.com/suraj_guduru" className="nav-social-media-logo"><i className="zmdi zmdi-instagram font-white"></i></a>
                 </div>
                 <ul>
                     <li><i className="zmdi zmdi-border-color"></i><a href="#about">About</a></li>
