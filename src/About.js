@@ -6,7 +6,7 @@ function About() {
         <div>
             <section id="about">
                 <div className="card">
-                    <img src="https://avatars.githubusercontent.com/u/140954256?s=400&v=4" alt="Profile-Photo" />
+                    <img src="https://github.com/surajguduru/Portfolio_1/blob/main/src/profile_photo.jpg" alt="Profile-Photo" />
                     <div className="card-content">
                         <h2>Suraj Guduru</h2>
                         <p>Developer • Gamer • Learner</p>
