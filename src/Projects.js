@@ -36,7 +36,7 @@ function Projects() {
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/Quiz-App',
           language: 'HTML • CSS • JavaScript',
           title: 'Quiz App',
-          description: 'This Astrology Android app provide solution of your life problem, based upon Krishna Jyotish Padathi.',
+          description: 'A Quiz App built with HTML, CSS and JavaScript that can be used to conduct quizzes and tests online',
           githubLink: 'https://github.com/surajguduru/Quiz-App'
         },
         {

@@ -1,12 +1,12 @@
 import React from 'react';
 import "./About.css";
-
+import profilePic from './profile_pic.png';
 function About() {
     return (
         <div>
             <section id="about">
                 <div className="card">
-                    <img src="https://avatars.githubusercontent.com/u/140954256?s=400&v=4" alt="Profile-Photo" />
+                    <img src={profilePic} alt="Profile-Photo" />
                     <div className="card-content">
                         <h2>Suraj Guduru</h2>
                         <p>Developer • Gamer • Learner</p>

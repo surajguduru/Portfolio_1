@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./NavBar.css";
+import profilePic from './profile_pic.png';
 
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,7 +59,7 @@ function NavBar() {
             </header>
             <div ref={menuRef} className={`side-menu ${isMenuOpen ? 'open' : 'closed'}`}>
                 <div onClick={toggleMenu} className="side-menu-close"><i className="zmdi zmdi-close"></i></div>
-                <img src="https://avatars.githubusercontent.com/u/140954256?s=400&v=4" alt="Profile-Photo" />
+                <img src={profilePic} alt="Profile-Photo" />
                 <h3>Suraj Guduru</h3>
                 <div class="side-menu-links">
                     <a href="https://www.linkedin.com/in/surajguduru/" className="nav-social-media-logo"><i className="zmdi zmdi-linkedin font-white"></i></a>
