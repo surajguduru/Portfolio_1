@@ -4,7 +4,16 @@ import "./Projects.css";
 function Projects() {
     
     const projects = [
+      {
+        id: 1,
+        image: 'https://opengraph.githubassets.com/2f3/surajguduru/UniversityAdmissions',
+        language: 'Java • SQL',
+        title: 'University Admission Management System',
+        description: 'A University Admission Management System built with Java and SQL that can be used to manage student admissions, courses, and faculty.',
+        githubLink: 'https://github.com/surajguduru/UniversityAdmissions'
+      },
         {
+          id: 2,
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/ECommerceStore',
           language: 'HTML • CSS • JavaScript',
           title: 'E Commerce Store',
@@ -12,6 +21,7 @@ function Projects() {
           githubLink: 'https://github.com/surajguduru/ECommerceStore'
         },
         {
+          id: 3,
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/SST-WebDev/tree/main/KanbanBoard',
           language: 'HTML • CSS • JavaScript',
           title: 'Kanban Board',
@@ -19,13 +29,7 @@ function Projects() {
           githubLink: 'https://github.com/surajguduru/SST-WebDev/tree/main/KanbanBoard1'
         },
         {
-          image: 'https://opengraph.githubassets.com/2f3/surajguduru/UniversityAdmissions',
-          language: 'Java • SQL',
-          title: 'University Admission Management System',
-          description: 'A University Admission Management System built with Java and SQL that can be used to manage student admissions, courses, and faculty.',
-          githubLink: 'https://github.com/surajguduru/UniversityAdmissions'
-        },
-        {
+          id: 4,
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/SST-WebDev/tree/main/KanbanBoard',
           language: 'HTML • CSS • JavaScript',
           title: 'Tic Tac Toe MultiPlayer',
@@ -33,6 +37,7 @@ function Projects() {
           githubLink: 'https://github.com/surajguduru/SST-WebDev/tree/main/TicTacToe'
         },
         {
+          id: 5,
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/Quiz-App',
           language: 'HTML • CSS • JavaScript',
           title: 'Quiz App',
@@ -40,6 +45,7 @@ function Projects() {
           githubLink: 'https://github.com/surajguduru/Quiz-App'
         },
         {
+          id: 6,
           image: 'https://opengraph.githubassets.com/2f3/surajguduru/TerminalImageEditor',
           language: 'Java',
           title: 'Terminal based Image Editor',
@@ -74,8 +80,8 @@ function Projects() {
             <section id="projects">
                 <h2>Projects And Work</h2>
                 <div className="projects-cards-container">
-                    {projects.map((project, index) => (
-                        <div className="projects-card" key={index}>
+                    {projects.map((project) => (
+                        <div className="projects-card" key={project.id}>
                             <div className="projects-card-image-container">
                                 <img src={project.image} alt={project.title} className="projects-card-image" />
                             </div>

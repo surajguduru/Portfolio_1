@@ -50,9 +50,9 @@ function NavBar() {
                 {isDropdownOpen && (
                     <div className="dropdown-menu">
                         <ul>
-                            <li><i className="zmdi zmdi-download font-blue"></i><a href="your-resume-url" download>Download Resume</a></li>
-                            <li><i className="zmdi zmdi-email font-green"></i><a href="mailto:your-email@example.com">Drop me an Email</a></li>
-                            <li><i className="zmdi zmdi-comment-more font-yellow"></i><a href="https://telegram.me/your-telegram-username" target="_blank" rel="noopener noreferrer">Telegram me</a></li>
+                            <li><a href="your-resume-url" download><i className="zmdi zmdi-download font-blue"></i>Download Resume</a></li>
+                            <li><a href="mailto:your-email@example.com"><i className="zmdi zmdi-email font-green"></i>Drop me an Email</a></li>
+                            <li><a href="https://telegram.me/your-telegram-username" target="_blank" rel="noopener noreferrer"><i className="zmdi zmdi-comment-more font-yellow"></i>Telegram me</a></li>
                         </ul>
                     </div>
                 )}
