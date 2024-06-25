@@ -13,53 +13,57 @@
 }
 
 .interests-card {
-    perspective: 500px;
-    /* Create a perspective for 3D effect */
+    perspective: 400px;
 }
 
-.card {
-    width: 1vw;
-    height: 1vw;
-    background: white;
-    /* border: 0.5px solid #555555; */
-    border-radius: 4px;
+.interests-card-box {
+    width: 140px;
+    height: 140px;
+    background:white;
+    border-radius: 10px;
     position: relative;
     transform-style: preserve-3d;
     will-change: transform;
     transition: transform 0.5s;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.card:hover {
+.interests-card-box:hover {
     transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
 }
 
-.card_title {
-    color: black;
+.interests-card-title {
+    color: #fff;
     position: absolute;
     top: 60%;
-    right: 40px;
+    left: 40px;
     transform: translateY(-50%);
     transition: transform 0.5s;
     font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    z-index: 2; /* Ensures title stays on top */
 }
 
-.card:hover .card_title {
+.interests-card-box:hover .interests-card-title {
     transform: translateZ(50px);
 }
 
-.interest-icon {
+.interests-icon {
     font-size: 4vw;
     display: block;
     margin-bottom: 1vh;
     transition: transform 0.5s;
-    z-index: 1;
+    z-index: 1; /* Ensures icon stays on top */
 }
 
-.card:hover .interest-icon {
+.interests-card-box:hover .interests-icon {
     transform: translateZ(20px) rotate(15deg);
-    color: #ff4500;
+    color: #ff4500; 
 }
